@@ -36,17 +36,17 @@ export default function GridLayout() {
 
       <Grid item lg={6} md={12} sm={12} xs={12}>
         <GridItem 
-          title="Excel Masterclass"
+          title="React Chart Basics"
           image="https://cdn.pixabay.com/photo/2015/09/05/22/46/business-925900_1280.jpg"
-          description="In this 6-level eDegree, you'll learn how to use Excel from the very basics all the way to VBA programming and machine learning. You'll also learn web automation, Python and Selenium."
+          description="In this course you will learn how to build Dashboards containing charts. The data for this course will not come from an API. See the Masterclass."
         />
       </Grid>
     
       <Grid item lg={6} md={12} sm={12} xs={12}>
         <GridItem  
-          title="Learn to Code and Get Hired" 
+          title="React Masterclass" 
           image="https://cdn.pixabay.com/photo/2021/01/21/14/44/laptop-5937580_1280.jpg"
-          description="Do you need a better career? Do you want to become an employed software developer with a high paying job? Learn how to code and get hired in this coding interview questions course."
+          description="In this course we will take our knowledge of React hooks, in particular, useEffect and make calls to fech data from a back-end API"
         />
       </Grid>
     
