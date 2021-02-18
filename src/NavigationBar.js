@@ -33,6 +33,11 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up('md')]: {
       paddingLeft: theme.spacing(10)
     }
+  },
+  mainContainer: {
+      backgroundColor: theme.palette.common.black,
+      color: theme.palette.common.white,
+      marginBottom: '5px'
   }
   
 }));
@@ -42,7 +47,7 @@ export default function NavigationBar() {
   const classes = useStyles();
   
   return (
-    <Container>
+    <Container className={classes.mainContainer}>
     
       <Toolbar className={classes.toolbar}>
     

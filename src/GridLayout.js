@@ -8,6 +8,7 @@ import GridItem from './GridItem';
 
 const useStyles = makeStyles(theme => ({
   
+    // Not used
   mainGridItem: {
     backgroundColor: 'blue'
   },
