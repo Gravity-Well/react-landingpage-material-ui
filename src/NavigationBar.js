@@ -33,11 +33,6 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up('md')]: {
       paddingLeft: theme.spacing(10)
     }
-  },
-  mainContainer: {
-    backgroundColor: 'lightblue',
-    height: 100
-  
   }
   
 }));
@@ -47,7 +42,7 @@ export default function NavigationBar() {
   const classes = useStyles();
   
   return (
-    <Container className={classes.mainContainer}   maxWidth='xl'>
+    <Container>
     
       <Toolbar className={classes.toolbar}>
     
@@ -57,7 +52,7 @@ export default function NavigationBar() {
           className={classes.siteTitle}
         >
     
-          Gravity Well Courses
+          Gravity Well Training
     
         </Typography>
     
