@@ -16,7 +16,7 @@ function Copyright() {
     
       {"Copyright "}
     
-      <Link href="https://training.mammothinteractive.com">
+      <Link href="http://Nusoftva.com">
         Courses
       </Link>
     
@@ -46,7 +46,7 @@ export default function Footer() {
       <Container>
     
         <Typography variant="h6">
-          Mammoth Interactive
+         GravityWell Training Solutions
         </Typography>
     
         <Typography variant="subtitle1" color="textSecondary">

@@ -86,8 +86,9 @@ export default function NavigationBar() {
     return (
     
       <Toolbar>
-      
+     
         <IconButton
+        
           {...{
           onClick: handleToggleMenuOpen
           }}
@@ -142,7 +143,7 @@ export default function NavigationBar() {
             className={classes.siteTitle}
           >
 
-            Mammoth Interactive
+            GravityWell Training Solutions
 
           </Typography>
 
@@ -172,7 +173,8 @@ export default function NavigationBar() {
     
       <AppBar> 
     
-        {toggleMenu ? displayToggleMenu() : displayLargeMenu() }
+        {/* {toggleMenu ? displayToggleMenu() : displayLargeMenu() } */}
+        { displayLargeMenu()  }
     
       </AppBar>
  
