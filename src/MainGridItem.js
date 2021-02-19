@@ -28,12 +28,12 @@ export default function MainGridItem() {
     
       <Grid item className={classes.mainItem} md={6}>
     
-        <Typography component='h2' variant='h5'>
+        <Typography component='h2' variant='h2'>
           Hello Coding
         </Typography>
 
         <Typography variant='body1' paragraph>
-          Do you want to learn to code? Smash your career goals. Build websites, games, apps and artificial intelligence project in 99 days.
+          Learn coding in today's current front-end technologies from JavaScript to React. In addition, back-end technologies using nodejs and express.
         </Typography>
     
       </Grid>

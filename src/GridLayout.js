@@ -15,41 +15,41 @@ export default function GridLayout() {
 
       <Grid item lg={6} md={12} sm={12} xs={12}>
         <GridItem 
-          title="Excel Masterclass"
+          title="React Charts and Dashboards"
           image="https://cdn.pixabay.com/photo/2015/09/05/22/46/business-925900_1280.jpg"
-          description="In this 6-level eDegree, you'll learn how to use Excel from the very basics all the way to VBA programming and machine learning. You'll also learn web automation, Python and Selenium."
+          description="Learn to master charts and embedding charts in to dashboards for the ultimate data analytics display"
         />
       </Grid>
     
       <Grid item lg={6} md={12} sm={12} xs={12}>
         <GridItem  
-          title="Learn to Code and Get Hired" 
+          title="Node RESTful API Masterclass" 
           image="https://cdn.pixabay.com/photo/2021/01/21/14/44/laptop-5937580_1280.jpg"
-          description="Do you need a better career? Do you want to become an employed software developer with a high paying job? Learn how to code and get hired in this coding interview questions course."
+          description="Master back-end development with hands-on course using nodejs, express and PostgreSQL database"
         />
       </Grid>
     
       <Grid item lg={4} md={12} sm={12} xs={12}>
         <GridItem 
-          title="3D Modeling Masterclass" 
+          title="JavaScript Basics" 
           image="https://cdn.pixabay.com/photo/2020/01/20/19/08/modelling-4781127_1280.jpg"
-          description="In this 17-course bundle, you will build low poly and high poly 3D models. Anyone can learn the free digital art software Blender. You will also learn Unity and Adobe Photoshop."
+          description="In this course you will master the basics of JavaScript."
         />
       </Grid>
     
       <Grid item lg={4} md={12} sm={12} xs={12}>
         <GridItem 
-          title="Business & Side Hustles" 
+          title="Intermediate JavaScript" 
           image="https://cdn.pixabay.com/photo/2020/12/31/17/39/man-5877068_1280.jpg"
-          description="This five-level course will take you from no experience in business into a life of financial wisdom and entrepreneurship. You will learn from a successful CEO how to be profitable."
+          description="This course will expand on the JavaScript basics and move you into the world of data structures."
       />
       </Grid>
     
       <Grid item lg={4} md={12} sm={12} xs={12}>
         <GridItem  
-          title="Game Development Masterclass" 
+          title="Introduction to React" 
           image="https://cdn.pixabay.com/photo/2020/12/31/21/03/deer-5877407_1280.jpg"
-          description="This bundle of 14 Unity courses will teach you how to build games from scratch. You will learn C#, Blender, Adobe Photoshop, and Unity machine learning with Python."
+          description="Take your JavaScript to the next level by learning the most popular JavaScript library."
         />
       </Grid>
     

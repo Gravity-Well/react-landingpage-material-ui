@@ -173,8 +173,8 @@ export default function NavigationBar() {
     
       <AppBar> 
     
-        {/* {toggleMenu ? displayToggleMenu() : displayLargeMenu() } */}
-        { displayLargeMenu()  }
+        {toggleMenu ? displayToggleMenu() : displayLargeMenu() }
+      
     
       </AppBar>
  
